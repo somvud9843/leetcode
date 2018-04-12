@@ -1,0 +1,7 @@
+hm = "{0:b}".format(x^y)
+ans = 0
+for i in str(hm):
+    print(i)
+    if i == 1:
+        ans +=1
+return ans
